@@ -25,4 +25,10 @@ img {
 .navbar:hover {
     opacity: 1 !important;
 }
+html{
+scroll-behavior: smooth}
+.mainApp{
+scroll-behavior: smooth}
+
+
 

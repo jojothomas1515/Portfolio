@@ -21,7 +21,8 @@ function Navbar(props) {
 
             <nav>
                 <ul className={'inline-flex gap-3'}>
-                    <LinkButton to={"Project"}>Project</LinkButton>
+                    <LinkButton to={"#skill"} useHref={true}>Skills</LinkButton>
+                    <LinkButton to={"#projects"} useHref={true}>Projects</LinkButton>
                 </ul>
             </nav>
         </div>
