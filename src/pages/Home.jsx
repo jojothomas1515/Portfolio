@@ -87,7 +87,8 @@ function Home() {
                     />
                     <ProjectCard projectName={'Calculator'}
                                  projectDescription={'This  is a calculator Web App made with react, using the reducer hook to perform basic calculator operations' +
-                                     'and also with adding clicked digits to the display'}
+                                     ' adding clicked digits to the display , and also clearing and deleting digits ' +
+                                     ''}
                                  usedTechnologies={'React.js'}
                                  projectLink={'https://reactbasiccalc.netlify.com'}
                                  githubLink={"https://github.com/jojothomas1515/ReactCalculator"}
