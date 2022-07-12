@@ -63,7 +63,7 @@ function Home(props) {
                     Below are the various project of which i have worked on and completed
                 </p>
 
-                <div className={'projects grid md:grid-cols-3 md:grid-rows-2  gap-2 '}>
+                <div className={'projects grid md:grid-cols-3 md:grid-rows-auto  gap-2 '}>
 
                     <ProjectCard projectName={'JojoProject'}
                                  projectDescription={'This is one of the first project i completed, JojoProject is a fullstack project\n' +

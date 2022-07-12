@@ -5,12 +5,12 @@ SkillComp.propTypes= {
     imgBg :PropTypes.string,
     children:PropTypes.string
 }
-function SkillComp({imgSrc, imgBg, children}) {
+function SkillComp({imgSrc, imgBg, alt, children }) {
     return (
         <div className={'flex flex-col items-center gap-5 pt-2 md:flex-row'}>
             <div className={'h-72 flex item-center p-3'}>
                 <img className={`h-full object-contain aspect-square ${imgBg} rounded  shadow shadow-black p-4`}
-                     src={imgSrc}/>
+                     src={imgSrc} alt={alt}/>
             </div>
             <div className="pb-5">
                 {children}

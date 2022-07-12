@@ -5,7 +5,7 @@ function PythonSkill(props) {
     return (
 
         <>
-            <SkillComp imgBg={'bg-blue-500'} imgSrc={require('../../images/logo-python-pngrepo-com.png')}>
+            <SkillComp imgBg={'bg-blue-500'} imgSrc={require('../../images/logo-python-pngrepo-com.png')} alt={'Python Logo'}>
                 <h2>hello compononts</h2>
             </SkillComp>
         </>

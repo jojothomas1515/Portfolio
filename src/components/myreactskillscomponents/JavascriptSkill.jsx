@@ -5,7 +5,7 @@ function JavascriptSkill(props) {
     return (
 
         <>
-            <SkillComp imgBg={'bg-black'} imgSrc={require('../../images/javascript-logo-pngrepo-com.png')}> <h2>
+            <SkillComp imgBg={'bg-black'} imgSrc={require('../../images/javascript-logo-pngrepo-com.png')} alt={'javascript Logo'}> <h2>
                 JS COMPONOTS
             </h2>
             </SkillComp>
