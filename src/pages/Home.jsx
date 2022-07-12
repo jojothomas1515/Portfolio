@@ -10,7 +10,7 @@ import JavascriptSkill from "../components/myreactskillscomponents/JavascriptSki
 import DjangoSkill from "../components/myreactskillscomponents/DjangoSkill";
 import ProjectCard from "../components/ProjectCard";
 
-function Home(props) {
+function Home() {
     return (<>
 
             <section className="intro bg-gray-800 h-72 flex flex-col items-end justify-center text-white p-3 ">
@@ -85,15 +85,12 @@ function Home(props) {
                                  githubLink={"https://github.com/jojothomas1515/JojoFrontend "}
 
                     />
-                    <ProjectCard projectName={'JojoProject'}
-                                 projectDescription={'This is one of the first project i completed, JojoProject is a fullstack project\n' +
-                                     '                            implementing CRUD, this was solely built using Django , in this project only people with\n' +
-                                     '                            admin\n' +
-                                     '                            access can make a blogpost,\n' +
-                                     '                            i also built in authentication, so only authenticated users can view post'}
-                                 usedTechnologies={'Django'}
-                                 projectLink={'https://jojoreact.herokuapp.com'}
-                                 githubLink={"https://github.com/jojothomas1515/JojoFrontend"}
+                    <ProjectCard projectName={'Calculator'}
+                                 projectDescription={'This  is a calculator Web App made with react, using the reducer hook to perform basic calculator operations' +
+                                     'and also with adding clicked digits to the display'}
+                                 usedTechnologies={'React.js'}
+                                 projectLink={'https://reactbasiccalc.netlify.com'}
+                                 githubLink={"https://github.com/jojothomas1515/ReactCalculator"}
 
                     />
 
