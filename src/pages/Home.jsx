@@ -20,6 +20,9 @@ function Home() {
                         developer.</p>
                     <p> Currently I'm going in-depth in <b>Frontend Web Development</b> and i'm hoping to get a job as a
                         junior frontend developer </p>
+
+
+                    <h1>This portfolio in still under construction</h1>
                 </div>
             </section>
             <section className={'skills my-4 p-4 bg-slate-600 text-white'}>
